@@ -8,6 +8,7 @@
   "files": [
     {
       "path": "registry/blocks/breadcrumb/breadcrumb.tsx",
+      "content": "import { Breadcrumb as BreadcrumbPrimitive } from \"antd\";\n\nexport default BreadcrumbPrimitive;\n",
       "type": "registry:component"
     }
   ]

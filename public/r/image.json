@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image",
+  "type": "registry:component",
+  "title": "Image",
+  "description": "A simple, reusable image provided by Ant",
+  "registryDependencies": ["image"],
+  "files": [
+    {
+      "path": "registry/blocks/image/image.tsx",
+      "content": "",
+      "type": "registry:component"
+    }
+  ]
+}

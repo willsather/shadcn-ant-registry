@@ -3,7 +3,6 @@ import * as React from "react";
 
 import Button from "@/registry/blocks/button/button";
 import Card from "@/registry/blocks/card/card";
-import Image from "@/registry/blocks/image/image";
 
 export function ImageCard({
   title,

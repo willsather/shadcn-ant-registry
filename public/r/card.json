@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:component",
+  "title": "Card",
+  "description": "A simple, reusable card provided by Ant",
+  "registryDependencies": ["card"],
+  "files": [
+    {
+      "path": "registry/blocks/card/card.tsx",
+      "content": "import { Card as CardPrimitive } from \"antd\";\n\nexport default CardPrimitive;\n",
+      "type": "registry:component"
+    }
+  ]
+}

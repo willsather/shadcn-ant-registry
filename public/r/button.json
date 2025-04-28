@@ -8,6 +8,7 @@
   "files": [
     {
       "path": "registry/blocks/button/button.tsx",
+      "content": "import { Button as ButtonPrimitive } from \"antd\";\n\nexport default ButtonPrimitive;\n",
       "type": "registry:component"
     }
   ]
