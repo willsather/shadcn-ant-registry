@@ -29,7 +29,7 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               Button
             </h2>
-            <OpenInV0Button name="hello-world" className="w-fit" />
+            <OpenInV0Button name="button" className="w-fit" />
           </div>
           <div className="flex items-center justify-center min-h-[400px] gap-2 relative">
             <Button variant="solid">Solid Button</Button>
@@ -43,7 +43,7 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               Breadcrumb
             </h2>
-            <OpenInV0Button name="hello-world" className="w-fit" />
+            <OpenInV0Button name="breadcrumb" className="w-fit" />
           </div>
           <div className="flex items-center justify-center min-h-[100px] relative">
             <Breadcrumb items={[{ title: 'Dashboard' }, { title: 'Components' }, { title: 'Breadcrumb' }]} />
