@@ -3,6 +3,13 @@ import * as React from "react";
 import { OpenInV0Button } from "@/components/open-in-v0-button";
 import Breadcrumb from "@/registry/blocks/breadcrumb/breadcrumb";
 import Button from "@/registry/blocks/button/button";
+import Card from "@/registry/blocks/card/card";
+import { ImageCard } from "@/registry/blocks/image-card/image-card";
+import {
+  EditOutlined,
+  EllipsisOutlined,
+  SettingOutlined,
+} from "@ant-design/icons";
 
 export default function Home() {
   return (
@@ -29,12 +36,12 @@ export default function Home() {
       </header>
 
       <main className="flex flex-1 flex-col gap-8">
-        <div className="relative flex min-h-[450px] flex-col gap-4 rounded-lg border p-4">
+        <div className="relative flex min-h-[150px] flex-col gap-4 rounded-lg border p-4">
           <div className="flex items-center justify-between">
             <h2 className="text-muted-foreground text-sm sm:pl-3">Button</h2>
             <OpenInV0Button name="button" className="w-fit" />
           </div>
-          <div className="relative flex min-h-[400px] items-center justify-center gap-2">
+          <div className="relative flex min-h-[100px] items-center justify-center gap-2">
             <Button variant="solid">Solid Button</Button>
             <Button variant="filled">Filled Button</Button>
             <Button variant="outlined">Outlined Button</Button>
@@ -51,10 +58,48 @@ export default function Home() {
           <div className="relative flex min-h-[100px] items-center justify-center">
             <Breadcrumb
               items={[
-                { title: "Dashboard" },
-                { title: "Components" },
-                { title: "Breadcrumb" },
+                { title: "Dashboard", href: "#dashboard" },
+                { title: "Components", href: "#components" },
+                { title: "Breadcrumb", href: "#breadcrumb" },
               ]}
+            />
+          </div>
+        </div>
+
+        <div className="relative flex min-h-[150px] flex-col gap-4 rounded-lg border p-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-muted-foreground text-sm sm:pl-3">Card</h2>
+            <OpenInV0Button name="card" className="w-fit" />
+          </div>
+          <div className="relative flex min-h-[100px] items-center justify-center">
+            <Card
+              title="Card Title"
+              actions={[
+                <SettingOutlined key="setting" />,
+                <EditOutlined key="edit" />,
+                <EllipsisOutlined key="ellipsis" />,
+              ]}
+            >
+              This is a nice, very long card description for a card component.
+            </Card>
+          </div>
+        </div>
+
+        <div className="relative flex min-h-[150px] flex-col gap-4 rounded-lg border p-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-muted-foreground text-sm sm:pl-3">
+              Image Card
+            </h2>
+            <OpenInV0Button name="image-card" className="w-fit" />
+          </div>
+          <div className="relative flex min-h-[100px] items-center justify-center">
+            <ImageCard
+              title="Sky"
+              description="The sky is very blue"
+              buttonText="Learn More"
+              buttonLink="#button"
+              image="/sky.jpg"
+              alt="Sky"
             />
           </div>
         </div>
