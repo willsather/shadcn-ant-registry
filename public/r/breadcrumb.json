@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "breadcrumb",
+  "type": "registry:component",
+  "title": "Breadcrumb",
+  "description": "A simple, reusable breadcrumb provided by Ant",
+  "registryDependencies": [
+    "breadcrumb"
+  ],
+  "files": [
+    {
+      "path": "registry/blocks/breadcrumb/breadcrumb.tsx",
+      "type": "registry:component"
+    }
+  ]
+}
