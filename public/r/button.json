@@ -4,9 +4,7 @@
   "type": "registry:component",
   "title": "Button",
   "description": "A simple, reusable button provided by Ant",
-  "registryDependencies": [
-    "button"
-  ],
+  "registryDependencies": ["button"],
   "files": [
     {
       "path": "registry/blocks/button/button.tsx",

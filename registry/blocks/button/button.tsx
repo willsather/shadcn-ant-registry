@@ -1,3 +1,3 @@
-import { Button as ButtonPrimitive } from 'antd';
+import { Button as ButtonPrimitive } from "antd";
 
-export default ButtonPrimitive
+export default ButtonPrimitive;

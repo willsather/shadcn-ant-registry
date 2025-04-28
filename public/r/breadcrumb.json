@@ -4,9 +4,7 @@
   "type": "registry:component",
   "title": "Breadcrumb",
   "description": "A simple, reusable breadcrumb provided by Ant",
-  "registryDependencies": [
-    "breadcrumb"
-  ],
+  "registryDependencies": ["breadcrumb"],
   "files": [
     {
       "path": "registry/blocks/breadcrumb/breadcrumb.tsx",

@@ -1,3 +1,3 @@
-import { Breadcrumb as BreadcrumbPrimitive } from 'antd';
+import { Breadcrumb as BreadcrumbPrimitive } from "antd";
 
-export default BreadcrumbPrimitive
+export default BreadcrumbPrimitive;
