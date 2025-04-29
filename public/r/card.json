@@ -4,12 +4,12 @@
   "type": "registry:component",
   "title": "Card",
   "description": "A simple, reusable card provided by Ant",
-  "registryDependencies": ["card"],
   "files": [
     {
       "path": "registry/ui/card.tsx",
       "content": "import { Card as CardPrimitive } from \"antd\";\n\nexport default CardPrimitive;\n",
-      "type": "registry:component"
+      "type": "registry:component",
+      "target": "registry/ui/card.tsx"
     }
   ]
 }

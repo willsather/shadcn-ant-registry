@@ -3,13 +3,17 @@
   "name": "image-card",
   "type": "registry:component",
   "title": "Image Card",
-  "description": "A simple, reusable image card with a call to action",
-  "registryDependencies": ["button", "card"],
+  "description": "A simple, compound image card component",
+  "registryDependencies": [
+    "card",
+    "button"
+  ],
   "files": [
     {
       "path": "registry/blocks/image-card/image-card.tsx",
       "content": "import Meta from \"antd/es/card/Meta\";\nimport * as React from \"react\";\n\nimport Button from \"@/registry/ui/button\";\nimport Card from \"@/registry/ui/card\";\n\nexport function ImageCard({\n  title,\n  description,\n  buttonText,\n  buttonLink,\n  image,\n  alt,\n}: {\n  title: string;\n  description: string;\n  buttonText: string;\n  buttonLink: string;\n  image: string;\n  alt: string;\n}) {\n  return (\n    <Card\n      hoverable\n      style={{ width: 400 }}\n      cover={<img alt={alt} src={image} />}\n    >\n      <Meta title={title} description={description} />\n      <Button style={{ marginTop: 20 }} href={buttonLink}>\n        {buttonText}\n      </Button>\n    </Card>\n  );\n}\n",
-      "type": "registry:component"
+      "type": "registry:component",
+      "target": "registry/blocks/image-card.tsx"
     }
   ]
 }

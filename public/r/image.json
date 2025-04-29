@@ -4,12 +4,12 @@
   "type": "registry:component",
   "title": "Image",
   "description": "A simple, reusable image provided by Ant",
-  "registryDependencies": ["image"],
   "files": [
     {
       "path": "registry/ui/image.tsx",
       "content": "import { Image as ImagePrimitive } from \"antd\";\n\nexport default ImagePrimitive;\n",
-      "type": "registry:component"
+      "type": "registry:component",
+      "target": "registry/ui/image.tsx"
     }
   ]
 }

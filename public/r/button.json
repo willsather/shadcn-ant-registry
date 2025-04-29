@@ -4,12 +4,12 @@
   "type": "registry:component",
   "title": "Button",
   "description": "A simple, reusable button provided by Ant",
-  "registryDependencies": ["button"],
   "files": [
     {
       "path": "registry/ui/button.tsx",
       "content": "import { Button as ButtonPrimitive } from \"antd\";\n\nexport default ButtonPrimitive;\n",
-      "type": "registry:component"
+      "type": "registry:component",
+      "target": "registry/ui/button.tsx"
     }
   ]
 }
