@@ -5,8 +5,8 @@
   "title": "Image Card",
   "description": "A simple, compound image card component",
   "registryDependencies": [
-    "card",
-    "button"
+    "https://shadcn-ant-registry.vercel.app/r/card.json",
+    "https://shadcn-ant-registry.vercel.app/r/button.json"
   ],
   "files": [
     {

@@ -47,7 +47,10 @@
       "type": "registry:component",
       "title": "Image Card",
       "description": "A simple, compound image card component",
-      "registryDependencies": ["card", "button"],
+      "registryDependencies": [
+        "https://shadcn-ant-registry.vercel.app/r/card.json",
+        "https://shadcn-ant-registry.vercel.app/r/button.json"
+      ],
       "files": [
         {
           "path": "registry/blocks/image-card/image-card.tsx",
