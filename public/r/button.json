@@ -7,7 +7,7 @@
   "registryDependencies": ["button"],
   "files": [
     {
-      "path": "registry/blocks/button/button.tsx",
+      "path": "registry/ui/button.tsx",
       "content": "import { Button as ButtonPrimitive } from \"antd\";\n\nexport default ButtonPrimitive;\n",
       "type": "registry:component"
     }

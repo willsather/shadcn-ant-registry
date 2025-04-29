@@ -1,4 +1,4 @@
-import Button from "@/registry/blocks/button/button";
+import Button from "@/registry/ui/button";
 import type { ComponentProps } from "react";
 
 export function OpenInV0Button({

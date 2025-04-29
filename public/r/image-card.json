@@ -4,7 +4,7 @@
   "type": "registry:component",
   "title": "Image Card",
   "description": "A simple, reusable image card with a call to action",
-  "registryDependencies": ["image-card", "button", "card"],
+  "registryDependencies": ["button", "card"],
   "files": [
     {
       "path": "registry/blocks/image-card/image-card.tsx",

@@ -7,7 +7,7 @@
   "registryDependencies": ["image"],
   "files": [
     {
-      "path": "registry/blocks/image/image.tsx",
+      "path": "registry/ui/image.tsx",
       "content": "",
       "type": "registry:component"
     }

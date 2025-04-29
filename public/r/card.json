@@ -7,7 +7,7 @@
   "registryDependencies": ["card"],
   "files": [
     {
-      "path": "registry/blocks/card/card.tsx",
+      "path": "registry/ui/card.tsx",
       "content": "import { Card as CardPrimitive } from \"antd\";\n\nexport default CardPrimitive;\n",
       "type": "registry:component"
     }

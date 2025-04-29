@@ -1,8 +1,8 @@
 import Meta from "antd/es/card/Meta";
 import * as React from "react";
 
-import Button from "@/registry/blocks/button/button";
-import Card from "@/registry/blocks/card/card";
+import Button from "@/registry/ui/button";
+import Card from "@/registry/ui/card";
 
 export function ImageCard({
   title,

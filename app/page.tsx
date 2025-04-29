@@ -1,10 +1,10 @@
 import * as React from "react";
 
 import { OpenInV0Button } from "@/components/open-in-v0-button";
-import Breadcrumb from "@/registry/blocks/breadcrumb/breadcrumb";
-import Button from "@/registry/blocks/button/button";
-import Card from "@/registry/blocks/card/card";
 import { ImageCard } from "@/registry/blocks/image-card/image-card";
+import Breadcrumb from "@/registry/ui/breadcrumb";
+import Button from "@/registry/ui/button";
+import Card from "@/registry/ui/card";
 import {
   EditOutlined,
   EllipsisOutlined,
