@@ -8,7 +8,7 @@
   "files": [
     {
       "path": "registry/ui/image.tsx",
-      "content": "",
+      "content": "import { Image as ImagePrimitive } from \"antd\";\n\nexport default ImagePrimitive;\n",
       "type": "registry:component"
     }
   ]
