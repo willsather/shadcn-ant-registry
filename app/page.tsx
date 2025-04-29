@@ -41,10 +41,12 @@ export default function Home() {
             <h2 className="text-muted-foreground text-sm sm:pl-3">Button</h2>
             <OpenInV0Button name="button" className="w-fit" />
           </div>
-          <div className="relative flex min-h-[100px] items-center justify-center gap-2">
-            <Button variant="solid">Solid Button</Button>
-            <Button variant="filled">Filled Button</Button>
-            <Button variant="outlined">Outlined Button</Button>
+          <div className="relative flex min-h-[100px] flex-wrap items-center justify-center gap-2">
+            <Button type="primary">Primary Button</Button>
+            <Button>Default Button</Button>
+            <Button type="dashed">Dashed Button</Button>
+            <Button type="text">Text Button</Button>
+            <Button type="link">Link Button</Button>
           </div>
         </div>
 
