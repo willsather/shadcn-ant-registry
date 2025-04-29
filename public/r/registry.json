@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "registry",
+  "type": "registry:component",
+  "title": "Registry",
+  "description": "Wrapper Registry for Ant Design",
+  "files": [
+    {
+      "path": "registry/ui/registry.tsx",
+      "content": "import { AntdRegistry as RegistryPrimitive } from \"@ant-design/nextjs-registry\";\n\nexport default RegistryPrimitive;\n",
+      "type": "registry:component",
+      "target": "registry/ui/registry.tsx"
+    }
+  ]
+}

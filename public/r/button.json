@@ -4,6 +4,9 @@
   "type": "registry:component",
   "title": "Button",
   "description": "A simple, reusable button provided by Ant",
+  "registryDependencies": [
+    "https://shadcn-ant-registry.vercel.app/r/registry.json"
+  ],
   "files": [
     {
       "path": "registry/ui/button.tsx",

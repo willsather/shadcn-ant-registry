@@ -4,10 +4,26 @@
   "homepage": "https://shadcn-ant-registry.vercel.app",
   "items": [
     {
+      "name": "registry",
+      "type": "registry:component",
+      "title": "Registry",
+      "description": "Wrapper Registry for Ant Design",
+      "files": [
+        {
+          "path": "registry/ui/registry.tsx",
+          "target": "registry/ui/registry.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "button",
       "type": "registry:component",
       "title": "Button",
       "description": "A simple, reusable button provided by Ant",
+      "registryDependencies": [
+        "https://shadcn-ant-registry.vercel.app/r/registry.json"
+      ],
       "files": [
         {
           "path": "registry/ui/button.tsx",
@@ -21,6 +37,9 @@
       "type": "registry:component",
       "title": "Card",
       "description": "A simple, reusable card provided by Ant",
+      "registryDependencies": [
+        "https://shadcn-ant-registry.vercel.app/r/registry.json"
+      ],
       "files": [
         {
           "path": "registry/ui/card.tsx",
@@ -34,6 +53,9 @@
       "type": "registry:component",
       "title": "Image",
       "description": "A simple, reusable image provided by Ant",
+      "registryDependencies": [
+        "https://shadcn-ant-registry.vercel.app/r/registry.json"
+      ],
       "files": [
         {
           "path": "registry/ui/image.tsx",
